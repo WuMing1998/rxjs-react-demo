@@ -18,9 +18,27 @@ export function Counter() {
 
   const incrementValue = Number(incrementAmount) || 0;
 
+
+
   return (
     <div>
-      <div className={styles.row}>
+      rxjs Study...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* <div className={styles.row}>
         <button
           className={styles.button}
           aria-label="Decrement value"
@@ -62,7 +80,7 @@ export function Counter() {
         >
           Add If Odd
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
