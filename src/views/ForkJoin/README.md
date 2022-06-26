@@ -10,6 +10,7 @@ forkJoin( arg: observableObj[] | observableObj );
 forkJoin: 等待传递进来的observable全部执行完后再进行观察.
 
 ```tsx
+import { Observable , forkJoin } from "rxjs";
   const observable1 = new Observable((subscriber)=>{
     setTimeout(()=>{
       subscriber.next(1);
