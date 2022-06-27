@@ -1,7 +1,3 @@
-# 关于
-
-hello,这里是学习 Rxjs 的实验 demo
-
 ## forkJoin 运算子
 
 作用:
